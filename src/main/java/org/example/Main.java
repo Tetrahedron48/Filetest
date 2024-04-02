@@ -19,5 +19,6 @@ public class Main {
         }
         String format = String.format("%.2f", sum);
         System.out.println("Total price:"+format);
+        reader.close();
     }
 }
